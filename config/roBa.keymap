@@ -60,8 +60,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-
-
     };
 
     keymap {
@@ -75,7 +73,7 @@
 &kp LSHFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3       &lt 2 SPACE  &mo 1          &kp BACKSPACE  &kp ENTER                                         &mt RIGHT_SHIFT DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         input {
