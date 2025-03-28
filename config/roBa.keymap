@@ -73,6 +73,9 @@
 
             tap-ms = <20>;
         };
+
+    sensor-bindings = <&scroll_up_down>;
+
     };
 
     keymap {
