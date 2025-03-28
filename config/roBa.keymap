@@ -115,7 +115,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans   &trans   &trans      &trans  &trans                                                              &kp FSLH
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
